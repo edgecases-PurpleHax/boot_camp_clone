@@ -1,0 +1,27 @@
+## Activity File: Persistence
+
+- In this activity, you will continue to play the role of a pentester conducting an engagement on MegaCorpOne.
+- In the previous activity, you accessed the shadow file and cracked several passwords in it.
+- You will now conduct the post-exploitation task of persistence by adding an additional port for the SSH service to listen on, and then opening the port on a firewall.
+- Then, you will create a privileged account to SSH to your new hidden port, so that you can re-access your target.
+
+
+**Reminder**: Ensure that you are performing the activities on the target machine and not your own assessment machine! This means you should be SSH'd in, or have a reverse/Meterpreter shell into the target.
+
+### Instructions 
+
+1. On the target host, read the top 10 lines of the SSH config file, located at `/etc/ssh/sshd_config`, and identify the line where a port is specified.
+
+2. Using Nano, edit the file to add an additional port, 10022. (You must `sudo` to do this.)
+   - Due to this machine having limited services, you must restart the machine in order to restart the SSH service. Restart the machine via `sudo reboot`.
+
+3. Now, create a new backdoor account. In order to remain inconspicuous, name this account so that it appears as if it's a service. Create a new account named "systemd-ssh", with the password "password", and then add it to the sudoers group. 
+
+4. Confirm that the new account works by SSHing from your machine to the target host over port 10022 as the new user you created.
+   - Use the following command to ssh with a different port: `ssh -p 10022 systemd-ssh@ipaddress`
+
+---
+© 2021 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved.
+
+
+

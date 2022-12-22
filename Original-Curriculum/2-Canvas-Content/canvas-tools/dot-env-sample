@@ -1,0 +1,7 @@
+CANVAS_TOKEN=REALLYLONGSTRINGFROMACCOUNTSETTINGSHERE
+CANVAS_COURSE_ID=XXX
+CANVAS_API_URL=https://bootcampspot.instructure.com/api/v1
+
+STUDIO_API_URL=https://bootcampspot.instructuremedia.com/api
+STUDIO_EMAIL=test@test.com
+STUDIO_PASSWORD=mypassword

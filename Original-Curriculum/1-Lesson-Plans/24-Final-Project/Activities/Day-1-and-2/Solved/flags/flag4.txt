@@ -1,0 +1,23 @@
+______                 	 
+
+| ___ \                	 
+
+| |_/ /__ ___   _____ _ __  
+
+|	// _` \ \ / / _ \ '_ \
+
+| |\ \ (_| |\ V /  __/ | | |
+
+\_| \_\__,_| \_/ \___|_| |_|
+
+                       	 
+flag4{715dea6c055b9fe3337544932f2941ce}
+
+CONGRATULATIONS on successfully rooting Raven!
+
+This is my first Boot2Root VM - I hope you enjoyed it.
+
+Hit me up on Twitter and let me know what you thought:
+
+@mccannwj / wjmccann.github.io
+
